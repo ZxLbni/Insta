@@ -33,7 +33,7 @@ bot.on('message', async (msg) => {
     if (messageText.toLowerCase() === '/start') {
         bot.sendPhoto(
             chatId,
-            'https://i.ibb.co/0J2f0nx/51bdaf417eee.jpg',
+            'https://i.ibb.co/5Fss4dy/d069091c66ac.jpg',
             {
                 caption: '🌼 Welcome to Instagram Downloader \nSend me an Instagram video or image link to download it.\n🦋 Join the update channel:',
                 reply_markup: {
