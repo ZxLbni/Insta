@@ -57,7 +57,7 @@ bot.on('message', async (msg) => {
             console.log('Received Instagram URL:', messageText);
 
             // Inform user that the file is being processed with a sticker
-            const stickerId = 'CAACAgQAAxkBAAEMzLJm483R53GzjAHmbr3ms3iOFSlTqAADFAAClt1hUHmPWNO7Sd_YNgQ'; // Replace with your sticker file ID
+            const stickerId = 'CAACAgUAAxkBAAMVZwI7hL6JDjg4WmmgRNolGeYx9VsAAoMLAAKxXOlWQ_9_31UDzUs2BA'; // Replace with your sticker file ID
             const stickerMessage = await bot.sendSticker(chatId, stickerId);
             const stickerMessageId = stickerMessage.message_id;
 
