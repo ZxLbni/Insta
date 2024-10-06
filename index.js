@@ -33,7 +33,7 @@ bot.on('message', async (msg) => {
     if (messageText.toLowerCase() === '/start') {
         bot.sendPhoto(
             chatId,
-            'https://i.ibb.co/GFBGb5F/3d35af405aef.jpg',
+            'https://i.ibb.co/0J2f0nx/51bdaf417eee.jpg',
             {
                 caption: '🌼 Welcome to Instagram Downloader \nSend me an Instagram video or image link to download it.\n🦋 Join the update channel:',
                 reply_markup: {
@@ -57,7 +57,7 @@ bot.on('message', async (msg) => {
             console.log('Received Instagram URL:', messageText);
 
             // Inform user that the file is being processed with a sticker
-            const stickerId = 'CAACAgUAAxkBAAMVZwI7hL6JDjg4WmmgRNolGeYx9VsAAoMLAAKxXOlWQ_9_31UDzUs2BA'; // Replace with your sticker file ID
+            const stickerId = 'CAACAgQAAxkBAAO2ZwJITRgbx83i0Foe10wYyz1JtH0AAxQAApbdYVB5j1jTu0nf2DYE','CAACAgQAAxkBAAPWZwJO0wrKUSvqcKW3pD28lVLGXO8AAoMNAAKinwhQ_A-ubWmlVgQ2BA',''; // Replace with your sticker file ID
             const stickerMessage = await bot.sendSticker(chatId, stickerId);
             const stickerMessageId = stickerMessage.message_id;
 
