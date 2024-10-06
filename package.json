@@ -1,0 +1,18 @@
+{
+  "name": "instagram-downloader-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to download Instagram media.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "instagram-url-direct": "^1.0.5",
+    "node-telegram-bot-api": "^0.58.0",
+    "sharp": "^0.30.7",
+    "telegraf": "^4.12.1"
+  }
+}
